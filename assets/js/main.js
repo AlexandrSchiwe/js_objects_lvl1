@@ -93,6 +93,15 @@ let myMusic = [
     }
 ];
 
+let artist = "Queen";
+let title = "Bohemian Rhapsody";
+let release_year = 1975;
+let medium = ["CS", "CD", "Download"];
+let gold = true;
+
+myMusic.push([artist, title, release_year, medium, gold]);
+
+
 console.log(myMusic);
 console.log(myMusic[0].artist);
 console.log(myMusic[1].medium[3]);
@@ -101,4 +110,5 @@ console.log(myMusic[2].release_year);
 console.log(myMusic[3].release_year);
 console.log(myMusic[3].medium[2]);
 console.log(myMusic[3].title.slice(17, 21));
-console.log()
+console.log(myMusic[2].title.slice(13));
+console.log(myMusic[1].artist.slice(5));
